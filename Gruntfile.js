@@ -53,7 +53,7 @@ module.exports = function (grunt) {
         }
       },
       views: {
-        files: ['views/*.handlebars'],
+        files: ['views/*.handlebars','views/layouts/*.handlebars','views/partials/*.handlebars'],
         options: {
           livereload: reloadPort
         }
