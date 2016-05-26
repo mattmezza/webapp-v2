@@ -14,6 +14,9 @@
  * limitations under the License.
  */
 
+ @myunimol-blue: #1E88E5;
+ @myunimol-blue-dark: #0D47A1;
+
 html, body {
   font-family: 'Roboto', 'Helvetica', sans-serif;
 }
@@ -97,16 +100,19 @@ html, body {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  color: rgba(255, 255, 255, 0.56);
+  color: #fff;
   font-weight: 500;
+    :hover, .active:
+      background-color: #F44336;
+      color: #fff;
 }
 .demo-layout .demo-navigation .mdl-navigation__link:hover {
-  background-color: #00BCD4;
-  color: #37474F;
+  background-color: #F44336;
+  color: #fff;
 }
 .demo-navigation .mdl-navigation__link .material-icons {
   font-size: 24px;
-  color: rgba(255, 255, 255, 0.56);
+  color: #ffffff;
   margin-right: 32px;
 }
 
