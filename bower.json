@@ -1,0 +1,12 @@
+{
+  "name": "new",
+  "version": "0.0.1",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ],
+  "dependencies": {
+    "material-design-lite": "^1.1.3"
+  }
+}
