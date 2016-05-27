@@ -5,11 +5,14 @@ var router = express.Router();
 
 router.get('/', function(req, res) {
   res.render('index', {
-    title: 'MyUnimol', 
+    title: 'MyUnimol',
     student: {
       name: 'Matteo Merola',
       matr: '138654'
-    } });
+    },
+    career: {
+      completed: 82
+    }});
 });
 
 module.exports = router;
